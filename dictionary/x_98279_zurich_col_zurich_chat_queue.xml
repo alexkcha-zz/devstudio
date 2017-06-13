@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="chat_queue" label="Zurich Chat Queue" max_length="40" name="x_98279_zurich_col_zurich_chat_queue" type="collection">
+        <element choice="3" default="en" label="Supported language" max_length="3" name="supported_language" type="string">
+            <choice>
+                <element label="English" value="en"/>
+                <element label="French" value="fr"/>
+                <element label="German" value="de"/>
+                <element label="Italian" value="it"/>
+                <element label="Spanish" value="es"/>
+            </choice>
+        </element>
+    </element>
+</database>
